@@ -2,6 +2,7 @@ import { createServerComponentClient } from '@supabase/auth-helpers-nextjs'
 import { cookies } from 'next/headers'
 import AuthButtonServer from '../components/auth-button-server'
 import { redirect } from 'next/navigation'
+import { IconBrandX } from '@tabler/icons-react'
 
 export default async function Login () {
   const supabase = createServerComponentClient({ cookies })
@@ -9,5 +10,12 @@ export default async function Login () {
   if (session) {
     redirect('/')
   }
-  return (<AuthButtonServer/>)
+  return (
+    <div className='flex flex-col justify-center h-screen'>
+      <p className='flex flex-row justify-center pb-5 text-xl gap-1'>Yet another <IconBrandX size={24}/> clone just for learning purposes</p>
+      <div className='flex justify-center'>
+        <AuthButtonServer/>
+      </div>
+    </div>
+  )
 }

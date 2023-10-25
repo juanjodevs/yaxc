@@ -2,6 +2,7 @@
 
 import { createClientComponentClient } from '@supabase/auth-helpers-nextjs'
 import { useRouter } from 'next/navigation'
+import { IconBrandGithubFilled, IconLogout } from '@tabler/icons-react'
 
 export default function AuthButtonClient ({ session }) {
   const supabase = createClientComponentClient()
@@ -25,8 +26,8 @@ export default function AuthButtonClient ({ session }) {
     <>
       {
         session
-          ? <button onClick={handleSignOut}>LogOut</button>
-          : <button onClick={handleSignIn}>LogIn</button>
+          ? <button onClick={handleSignOut}><IconLogout size={24} color={'#f87171'}/></button>
+          : <button onClick={handleSignIn} className='flex flex-row justify-center gap-2 border rounded-md border-slate-600 p-2'><IconBrandGithubFilled size={24} />Login with Github</button>
       }
     </>
   )
