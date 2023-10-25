@@ -1,6 +1,6 @@
-# Just Another X clone
+# Yet Another X clone
 
-Not much to see here. Just another X clone.
+Not much to see here. Yet another X clone.
 
 [Preview](https://yaxc.juanjodevs.com)
 
@@ -16,5 +16,5 @@ Not much to see here. Just another X clone.
 
 ## Preview images
 
-<img src="https://github.com/juanjodevs/yaxc/blob/main/public/screenshot1.png?raw=true" width="300px"/>
-<img src="https://github.com/juanjodevs/yaxc/blob/main/public/screenshot2.png?raw=true" width="300px"/>
+<img src="https://github.com/juanjodevs/yaxc/blob/main/public/screenshot1.png?raw=true"/>
+<img src="https://github.com/juanjodevs/yaxc/blob/main/public/screenshot2.png?raw=true"/>
