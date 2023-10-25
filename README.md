@@ -10,6 +10,8 @@ Not much to see here. Yet another X clone.
 |
 [NextJS](https://nextjs.org/)
 |
+[Supabase](https://supabase.com)
+|
 [TailwindCSS](https://tailwindcss.com/)
 |
 [Vercel](https://vercel.com/)
