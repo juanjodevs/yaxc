@@ -41,7 +41,7 @@ export default function Tweets ({ tweets }) {
               />
             </div>
             <div className='flex flex-col gap-5'>
-              <div className='flex flex-row gap-2 align-middle justify-center'>
+              <div className='flex flex-row gap-2 align-middle'>
                 <span className='font-bold'>{tweet.profiles.name}</span>
                 <span className='opacity-60'>@{tweet?.profiles.user_name}</span>
               </div>

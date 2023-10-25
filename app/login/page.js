@@ -14,7 +14,7 @@ export default async function Login () {
   }
   return (
     <div className='flex flex-col justify-center h-screen'>
-      <p className='flex flex-row justify-center pb-5 text-xl gap-1'>Yet another <IconBrandX size={24}/> clone just for learning purposes</p>
+      <p className='flex flex-col text-center justify-center pb-5 text-xl gap-1 sm:flex-row'>Yet another <IconBrandX size={24} className='self-center'/> clone just for learning purposes</p>
       <div className='flex justify-center'>
         <AuthButtonServer/>
       </div>
