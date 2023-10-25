@@ -4,6 +4,8 @@ import AuthButtonServer from '../components/auth-button-server'
 import { redirect } from 'next/navigation'
 import { IconBrandX } from '@tabler/icons-react'
 
+export const dynamic = 'force-dynamic'
+
 export default async function Login () {
   const supabase = createServerComponentClient({ cookies })
   const { data: { session } } = await supabase.auth.getSession()

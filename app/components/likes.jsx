@@ -20,7 +20,7 @@ export default function Likes ({ tweet }) {
     }
   }
   return (
-    <div onClick={handleLikes} className='flex flex-row gap-1'>
+    <div onClick={handleLikes} className={`flex flex-row gap-1 ${tweet.likes.length > 0 && 'text-red-600'}`}>
       <IconHeartFilled size={18} className='cursor-pointer'/>
       <span className='text-sm'>{tweet.likes.length}</span>
     </div>

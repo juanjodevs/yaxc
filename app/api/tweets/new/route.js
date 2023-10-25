@@ -1,6 +1,8 @@
 import { createRouteHandlerClient } from '@supabase/auth-helpers-nextjs'
 import { cookies } from 'next/headers'
 
+export const dynamic = 'force-dynamic'
+
 export async function POST (req) {
   const body = await req.json()
   const supabase = createRouteHandlerClient({ cookies })

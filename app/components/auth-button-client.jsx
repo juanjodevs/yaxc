@@ -12,7 +12,7 @@ export default function AuthButtonClient ({ session }) {
     await supabase.auth.signInWithOAuth({
       provider: 'github',
       options: {
-        redirectTo: 'http://localhost:3000/auth/callback'
+        redirectTo: `${location.origin}/auth/callback`
       }
     })
   }
