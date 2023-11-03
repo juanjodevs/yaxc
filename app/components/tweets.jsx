@@ -30,7 +30,7 @@ export default function Tweets ({ tweets }) {
     <>
       {
         tweets?.map((tweet) => (
-          <div key={tweet?.id} className='flex flex-row border-b border-gray-400 dark:border-gray-700 p-5 gap-5'>
+          <div key={tweet?.id} className='flex flex-row border-b border-gray-400 dark:border-white p-5 gap-5'>
             <div className='mt-2'>
               <Image
                 src={tweet.profiles.avatar_url}

@@ -34,7 +34,7 @@ export default function NewTweet ({ user }) {
   }
 
   return (
-    <div className='flex flex-row p-5 border-b border-gray-400 dark:border-gray-700 gap-5'>
+    <div className='flex flex-row p-5 border-b border-gray-400 dark:border-white gap-5'>
       <div>
         <Image
           src={user.user_metadata.avatar_url}
