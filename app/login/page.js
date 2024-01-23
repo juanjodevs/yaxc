@@ -19,7 +19,7 @@ export default async function Login () {
         <AuthButtonServer/>
       </div>
       <div className='flex justify-center mt-5 text-xs'>
-        <p>(This buttons can be not working if Supabase project have been auto paused)</p>
+        <p>(These buttons may not work if the Supabase project has been automatically paused)</p>
       </div>
     </div>
   )
